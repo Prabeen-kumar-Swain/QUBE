@@ -36,3 +36,22 @@ Every scheduling decision creates a trade-off.
 
 QUBE exists to study these trade-offs — not to assume
 that one scheduling strategy is always the best.
+
+> System
+```text
+             QUBE
+              │
+     ┌────────┼─────────┐
+     ↓        ↓         ↓
+ Priority   Aging    Service Time
+     ↓        ↓         ↓
+     └────────┼─────────┘
+              ↓
+         Workload
+              ↓
+          Fairness
+              ↓
+      Scheduling Decision
+              ↓
+        Service Flow
+```
